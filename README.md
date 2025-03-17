@@ -10,6 +10,12 @@ Our dataset will have a few items and what we want to do is things like:
   
     o	Create a program that asks the user for the price of 5 pieces of furniture and calculates the total value of these items. Use a loop to handle data input. 
 
+furniture = "Bed", "Sofa", "Table" - # Idenitfy the pieces 
+price = 600, 400, 300 - # How much each one cost
+stock = 17, 23, 12 - # How much stock we have
+	
+print(f"Furniture: {furniture}, Price €{price}, Stock: {stock}")
+
 	Variable Type
   
     o	Ask the user for the name of a piece of furniture, its price, and the quantity in stock using input. Identify the data type for each variable.
